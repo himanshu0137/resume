@@ -1,0 +1,91 @@
+html, body {
+    height: 11.7in;
+    width: 8.3in;
+    margin: 0px;
+    max-width: 8.3in;
+    min-width: 8.3in;
+    min-height: 11.7in;
+    max-height: 11.7in;
+    font-family: Calibri;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact img{
+    width: 1rem;
+}
+
+.container .header {
+    height: 10%;
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.container .header .location {
+    width: 20%;
+}
+
+.container .header .name {
+    width: 50%;
+    position: relative;
+    text-align: center;
+}
+
+.container .header .name span {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container .header .contact {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .body {
+    height: 90%;
+}
+
+.container .body .top-section {
+    display: flex;
+}
+
+.experience.section {
+    width: 60%;
+}
+
+.extra.section {
+    width: 40%;
+}
+
+.section {
+    margin-bottom: 1rem;
+}
+
+.section-heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section .list {
+    margin-left: 10px;
+}
+
+.list .list-detail {
+    margin-left: 20px;
+}
+
+.list .item-title {
+    font-weight: bold;
+}
